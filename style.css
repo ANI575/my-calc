@@ -1,0 +1,103 @@
+ 
+    body {    
+background:var(--bg);
+margin: 0px auto;    
+
+}    
+html{
+    --bg: #f3eded;
+    --sec_bg: #fff;
+    --color:#000;
+    --hover_color: #f1f1f1;
+}
+body[data-theme="dark"]{
+    --bg: #0e0e0e;
+    --sec_bg: #222222;
+    --color:#fff;
+    --hover_color: #f1f1f1;
+}
+.calbody{    
+    background: #71dbdf;    
+border: 1px solid #ff0;    
+padding: 5px;    
+margin-left: 390px;    
+min-width: 27.4em;    
+max-width: 27.4em;    
+ 
+} 
+.header{
+    width: 438px;
+    height: 60px;
+    background: #000;
+    border-radius: 10px 10px 0 0;
+    display:flex;
+    align-items: center;
+}   
+.switchbox{
+    margin-left: 20px;
+    width: 60px;
+    height: 20px;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.switchbox input{
+    margin-left: 10px;
+    top: 1%;
+width: 90%;
+height: 90%;
+cursor:pointer;
+position: absolute;
+z-index: 100;
+-webkit-appearance: none;
+}
+.switchbox .box{
+    position: absolute;
+    top:10%;
+    left:2px;
+    
+    width: 20px;
+    height: 80%;
+    background: #003652;
+    border-radius: 20px;
+}
+.switchbox input:checked ~ .box{
+    background: rgb(9, 15, 13);
+    left:60%;
+}
+
+h1{    
+text-align: center;    
+font-size: 40px;    
+color: #70940d;    
+ 
+}    
+
+#lcd{    
+text-align: right;    
+width: 23.8em;    
+height: 40px;    
+font-size: 18px;    
+ 
+}    
+
+#lcdu{    
+color: grey;    
+text-align: right;    
+width: 28.6em;    
+height: 35px;    
+font-size: 15px;    
+ 
+}    
+
+button{    
+background-color: #fff;    
+width: 70px;    
+height: 60px;    
+font-size: 20px;    
+border:solid #097C9B;   
+} 
+
+button:hover{    
+background-color: #509CA9;        
+}    
